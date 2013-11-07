@@ -1,7 +1,7 @@
 /*! jQuery UI - v1.10.3 - 2013-11-07
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
-* To view and modify this theme, visit http://jqueryui.com/themeroller/
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Helvetica%2C%20Arial%2C%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=0px&bgColorHeader=%23416AB9&bgTextureHeader=fine_grain&bgImgOpacityHeader=0&borderColorHeader=%23416AB9&fcHeader=%23ffffff&iconColorHeader=%23ffffff&bgColorContent=%23ffffff&bgTextureContent=spotlight&bgImgOpacityContent=0&borderColorContent=%23ffffff&fcContent=%2334495e&iconColorContent=%23222222&bgColorDefault=%23215b99&bgTextureDefault=fine_grain&bgImgOpacityDefault=0&borderColorDefault=%23215b99&fcDefault=%23ffffff&iconColorDefault=%23ffffff&bgColorHover=%231971c9&bgTextureHover=fine_grain&bgImgOpacityHover=0&borderColorHover=%231971c9&fcHover=%23ffffff&iconColorHover=%23ffffff&bgColorActive=%23609dde&bgTextureActive=fine_grain&bgImgOpacityActive=0&borderColorActive=%23609dde&fcActive=%23ffffff&iconColorActive=%23ffffff&bgColorHighlight=%23215b99&bgTextureHighlight=fine_grain&bgImgOpacityHighlight=0&borderColorHighlight=%23215b99&fcHighlight=%23ffffff&iconColorHighlight=%23ffffff&bgColorError=%23e45032&bgTextureError=fine_grain&bgImgOpacityError=0&borderColorError=%23e45032&fcError=%23ffffff&iconColorError=%23ffffff&bgColorOverlay=%23215b99&bgTextureOverlay=diagonal_maze&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=%23000000&bgTextureShadow=diagonal_maze&bgImgOpacityShadow=0&opacityShadow=0&thicknessShadow=0px&offsetTopShadow=0&offsetLeftShadow=-10px&cornerRadiusShadow=18px
 * Copyright 2013 jQuery Foundation and other contributors; Licensed MIT */
 
 /* Layout helpers
@@ -786,7 +786,7 @@ body .ui-tooltip {
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-	font-family: Verdana,Arial,sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
 }
 .ui-widget .ui-widget {
@@ -796,25 +796,25 @@ body .ui-tooltip {
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Verdana,Arial,sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 }
 .ui-widget-content {
-	border: 1px solid #aaaaaa;
-	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
-	color: #222222;
+	border: 1px solid #ffffff;
+	background: #ffffff url(images/ui-bg_spotlight_0_ffffff_600x600.png) 50% 2% repeat-x;
+	color: #34495e;
 }
 .ui-widget-content a {
-	color: #222222;
+	color: #34495e;
 }
 .ui-widget-header {
-	border: 1px solid #aaaaaa;
-	background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
-	color: #222222;
+	border: 1px solid #416AB9;
+	background: #416AB9 url(images/ui-bg_fine-grain_0_416AB9_60x60.png) 50% 50% repeat;
+	color: #ffffff;
 	font-weight: bold;
 }
 .ui-widget-header a {
-	color: #222222;
+	color: #ffffff;
 }
 
 /* Interaction states
@@ -822,15 +822,15 @@ body .ui-tooltip {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	border: 1px solid #d3d3d3;
-	background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
-	font-weight: normal;
-	color: #555555;
+	border: 1px solid #215b99;
+	background: #215b99 url(images/ui-bg_fine-grain_0_215b99_60x60.png) 50% 50% repeat;
+	font-weight: bold;
+	color: #ffffff;
 }
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
-	color: #555555;
+	color: #ffffff;
 	text-decoration: none;
 }
 .ui-state-hover,
@@ -839,30 +839,30 @@ body .ui-tooltip {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #999999;
-	background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
-	font-weight: normal;
-	color: #212121;
+	border: 1px solid #1971c9;
+	background: #1971c9 url(images/ui-bg_fine-grain_0_1971c9_60x60.png) 50% 50% repeat;
+	font-weight: bold;
+	color: #ffffff;
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
 .ui-state-hover a:visited {
-	color: #212121;
+	color: #ffffff;
 	text-decoration: none;
 }
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #aaaaaa;
-	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
-	font-weight: normal;
-	color: #212121;
+	border: 1px solid #609dde;
+	background: #609dde url(images/ui-bg_fine-grain_0_609dde_60x60.png) 50% 50% repeat;
+	font-weight: bold;
+	color: #ffffff;
 }
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	color: #212121;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -871,31 +871,31 @@ body .ui-tooltip {
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-	border: 1px solid #fcefa1;
-	background: #fbf9ee url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
-	color: #363636;
+	border: 1px solid #215b99;
+	background: #215b99 url(images/ui-bg_fine-grain_0_215b99_60x60.png) 50% 50% repeat;
+	color: #ffffff;
 }
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,
 .ui-widget-header .ui-state-highlight a {
-	color: #363636;
+	color: #ffffff;
 }
 .ui-state-error,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
-	border: 1px solid #cd0a0a;
-	background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
-	color: #cd0a0a;
+	border: 1px solid #e45032;
+	background: #e45032 url(images/ui-bg_fine-grain_0_e45032_60x60.png) 50% 50% repeat;
+	color: #ffffff;
 }
 .ui-state-error a,
 .ui-widget-content .ui-state-error a,
 .ui-widget-header .ui-state-error a {
-	color: #cd0a0a;
+	color: #ffffff;
 }
 .ui-state-error-text,
 .ui-widget-content .ui-state-error-text,
 .ui-widget-header .ui-state-error-text {
-	color: #cd0a0a;
+	color: #ffffff;
 }
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
@@ -933,24 +933,24 @@ body .ui-tooltip {
 	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-widget-header .ui-icon {
-	background-image: url(images/ui-icons_222222_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(images/ui-icons_888888_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(images/ui-icons_454545_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-active .ui-icon {
-	background-image: url(images/ui-icons_454545_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(images/ui-icons_2e83ff_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(images/ui-icons_cd0a0a_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 
 /* positioning */
@@ -1140,38 +1140,38 @@ body .ui-tooltip {
 .ui-corner-top,
 .ui-corner-left,
 .ui-corner-tl {
-	border-top-left-radius: 4px;
+	border-top-left-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
-	border-top-right-radius: 4px;
+	border-top-right-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
-	border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
 .ui-corner-br {
-	border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 0px;
 }
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	background: #215b99 url(images/ui-bg_diagonal-maze_0_215b99_10x10.png) 50% 50% repeat;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 }
 .ui-widget-shadow {
-	margin: -8px 0 0 -8px;
-	padding: 8px;
-	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
-	opacity: .3;
-	filter: Alpha(Opacity=30);
-	border-radius: 8px;
+	margin: 0 0 0 -10px;
+	padding: 0px;
+	background: #000000 url(images/ui-bg_diagonal-maze_0_000000_10x10.png) 50% 50% repeat;
+	opacity: 0;
+	filter: Alpha(Opacity=0);
+	border-radius: 18px;
 }
